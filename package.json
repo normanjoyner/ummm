@@ -1,0 +1,40 @@
+{
+  "name": "ummm",
+  "version": "0.0.0",
+  "description": "Universal Mesos Metric Mover sends Mesos resource metrics to a specified monitoring service",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanjoyner/ummm.git"
+  },
+  "keywords": [
+    "ummm",
+    "mesos",
+    "metric",
+    "mover",
+    "monitor",
+    "resources",
+    "cloudwatch"
+  ],
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/ummm/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/ummm",
+  "bin": {
+    "ummm": "./application.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.0.29",
+    "ip": "^0.3.2",
+    "lodash": "^2.4.1",
+    "nomnom": "^1.8.1",
+    "request": "^2.49.0",
+    "winston": "^0.8.3"
+  }
+}
