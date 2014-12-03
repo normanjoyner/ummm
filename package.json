@@ -1,6 +1,6 @@
 {
   "name": "ummm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Universal Mesos Metric Mover sends Mesos resource metrics to a specified monitoring service",
   "main": "application.js",
   "scripts": {
